@@ -1,0 +1,100 @@
+@import "../../../../Sass/colors.scss";
+
+.c_items__item:first-child {
+  margin-top: 0;
+}
+
+.c_items__item {
+  margin-top: 20px;
+  border-radius: 12px;
+  padding: 15px;
+  display: flex;
+  box-shadow: 0px 4px 6px 0px #0000000D, 0px 10px 15px 0px #0000001A;
+  
+  &_img {
+    width: 100%;
+    max-width: 80px;
+    height: 80px;
+  
+    img {
+      width: 100%;
+    }
+  }
+
+  &_texts {
+    padding: 0 10px;
+    color: $color-black;
+
+    &-brand {
+      display: block;
+      font-size: 12px;
+      line-height: 1;
+      color: #1b1b1b;
+    }
+    
+    &-name {
+      width: 100%;
+      max-width: 235px;
+      font-size: 16px;
+      line-height: 18px;
+      color: #000;
+      height: 35px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    &-price {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 18px;
+      color: $color-price;
+    }
+
+    &-btns {
+      width: 112px;
+      height: 44px;
+      border-radius: 30px;
+      border: 1px solid $color-black;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      span {
+        height: 100%;
+        line-height: 44px;
+        text-align: center;
+        flex: 1;
+        display: block;
+      }
+    }
+  }
+
+  &_delete {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .c_items__item {
+    justify-content: start;
+    align-items: center;
+
+    &_texts {
+      display: flex;
+
+      &-wrap {
+        margin-left: 20px;
+      }
+
+      &-price {
+        margin-top: 0;
+      }
+    }
+  }
+}

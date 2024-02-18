@@ -1,0 +1,106 @@
+@import "../../Sass/colors.scss";
+
+.header {
+  width: 100%;
+  height: 50px;
+  padding: 0 10px;
+  background-color: $color-white ;
+  color: $color-primary;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 2px 4px 10px rgb(149, 146, 146);
+  position: fixed;
+  top: 0;
+  z-index: 300;
+
+  &__menu {
+    width: 80%;
+    display: flex;
+    align-items: center;
+
+    &-title {
+      margin-left: 15px;
+      font-size: 32px;
+      font-family: 'Dancing Script', cursive;
+      font-weight: 700;
+    }
+
+    &-routes {
+      display: block;
+      margin-left: 15px;
+
+      &-route {
+        display: inline-block;
+        line-height: 30px;
+        text-decoration: none;
+        padding: 0 10px;
+        color: $color-primary;
+        font-size: 12px;
+        font-family: 'Raleway', sans-serif;
+        margin-right: 10px;
+
+        &:hover {
+          border-bottom: 1px solid $color-primary;
+        }
+      }
+    }
+  }
+
+  &__logo_desktop {
+      width: 100px;
+      margin-top: 8px;
+
+      img {
+        width: 100%;
+      }
+  }
+
+  &__shop {
+    display: grid;
+    place-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    height: 70px;
+
+    &__menu {
+      width: 70%;
+
+      &-btn{
+        display: none;
+      }
+
+      &-title {
+        font-size: 45px;
+      }
+
+      &-routes {
+        margin-left: 50px;
+
+        &-route {
+          width: max-content;
+          height: 50px;
+          line-height: 50px;
+          padding: 0 15px;
+          font-size: 18px;
+        }
+      }
+    }
+
+    &__logo_desktop {
+      width: 150px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .header {
+    padding-left: 20px;
+
+    &__shop {
+      margin-right: 30px;
+    }
+  }
+}

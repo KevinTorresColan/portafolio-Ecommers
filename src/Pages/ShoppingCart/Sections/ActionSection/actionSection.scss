@@ -1,0 +1,29 @@
+@import "../../../../Sass/colors.scss";
+
+.s_action__date {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.s_action__btn {
+  margin-top: 40px;
+
+  button {
+    border-radius: 25px;
+    padding: 10px 1px;
+    border: 1px solid $color-black;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .s_action__date {
+    width: 300px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .s_action__btn {
+    width: 300px;
+  }
+}

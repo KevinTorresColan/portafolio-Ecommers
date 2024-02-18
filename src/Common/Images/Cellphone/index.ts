@@ -1,0 +1,1 @@
+export { CELLPHONE_IMAGES } from './CellphoneImages.';

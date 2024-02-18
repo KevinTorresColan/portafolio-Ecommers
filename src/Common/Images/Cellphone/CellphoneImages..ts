@@ -1,0 +1,17 @@
+export const CELLPHONE_IMAGES = {
+  XIAOMI_NOTE_13_PRO: 'https://www.lacuracao.pe/media/catalog/product/x/i/xia-52852_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400',
+  SAMSUNG_A15_256: 'https://www.lacuracao.pe/media/catalog/product/s/m/sm-a155mzkfltp_1_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400',
+  SAMSUNG_A05S: 'https://www.lacuracao.pe/media/catalog/product/s/m/sm-a057mzkhltp_1_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400',
+  SAMSUNG_A15_4G: 'https://www.lacuracao.pe/media/catalog/product/s/m/sm-a155mzkfltp_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400',
+  SAMSUNG_A25_5G: 'https://www.lacuracao.pe/media/catalog/product/c/a/carrusel_a25_blueblack_111.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400',
+  IPHONE_13_WHITE: 'https://www.lacuracao.pe/media/catalog/product/m/l/mlpg3lza_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400',
+  IPHONE_13_BLACK: 'https://www.lacuracao.pe/media/catalog/product/m/l/mlpf3lza_1_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400',
+  XIAOMI_REDMI_12: 'https://www.lacuracao.pe/media/catalog/product/c/e/ce004xia76_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400',
+  HONOR_X7B: 'https://www.lacuracao.pe/media/catalog/product/5/1/5109axup_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400',
+  HONOR_X8B: 'https://www.lacuracao.pe/media/catalog/product/5/1/5109aycn_x5_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400',
+  XIAOMI_REDMI_13: 'https://www.lacuracao.pe/media/catalog/product/x/i/xia-52922_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400',
+  SAMSUNG_ZFLIP: 'https://www.lacuracao.pe/media/catalog/product/s/m/sm-f731bzekltp_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400',
+  SAMSUNG_A54_5G: 'https://www.lacuracao.pe/media/catalog/product/s/m/sm-a546ezkbltp_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400',
+  SAMSUNG_S24_ULTRA: 'https://www.lacuracao.pe/media/catalog/product/s/m/sm-s928bzkvltp_1_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400',
+  IPHONE_11: 'https://www.lacuracao.pe/media/catalog/product/m/h/mhdc3lza_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400',
+}

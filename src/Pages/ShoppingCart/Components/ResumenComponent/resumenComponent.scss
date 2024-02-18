@@ -1,0 +1,23 @@
+@import "../../../../Sass/colors.scss";
+
+.c_resumen__wrap {
+  box-shadow: 0px 4px 6px 0px #0000001A, 0px 2px 4px 0px #0000000F;
+}
+
+.c_resumen__thead {
+  border-radius: 12px 12px 0 0;
+  background-color: black;
+  padding: 21px;
+  color: $color-white;
+}
+
+.c_resumen__tbody {
+  padding: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h2 {
+    color: $color-price;
+  }
+}

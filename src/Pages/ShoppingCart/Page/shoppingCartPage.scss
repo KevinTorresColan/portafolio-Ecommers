@@ -1,0 +1,47 @@
+@import "../../../Sass/colors.scss";
+
+.p_cart__container {
+  padding: 0 15px;
+  padding-bottom: 40px;
+}
+
+.p_cart__title {
+  margin-top: 70px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: $color-black;
+}
+
+.p_cart__wrap {
+  &-resumen {
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .p_cart__title {
+    margin-top: 90px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .p_cart__container {
+    padding: 0 30px;
+    padding-bottom: 40px;
+  }
+
+  .p_cart__wrap {
+    display: flex;
+    align-items: flex-start;
+
+    &-items {
+      width: 60%;
+    }
+
+    &-resumen {
+      width: 40%;
+      margin-top: 0;
+      margin-left: 20px;
+    }
+  }
+}
